@@ -147,6 +147,7 @@ var mimeTypesAllowed = map[string]struct{}{
 	"image/tiff":             struct{}{},
 	"text/plain":             struct{}{},
 	"text/rtf":               struct{}{},
+	"application/octet-stream": struct{}{},
 }
 
 func convertSupportedContentType(printerTags map[string][]string) *[]cdd.SupportedContentType {
